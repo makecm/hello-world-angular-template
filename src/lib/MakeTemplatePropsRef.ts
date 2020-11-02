@@ -2,7 +2,11 @@ import { Injectable } from '@angular/core';
 
 function _templateProps() : any {
    // return the global native browser window object
-   return window['templateProps'] || { headline: 'hello World' };
+   return window['templateProps'] || {
+      headline: 'Hello World',
+      backgroundImage: '',
+      showLogo: true,
+   };
 }
 
 @Injectable()

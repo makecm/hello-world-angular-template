@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MakeTemplatePropsRef } from '../lib/MakeTemplatePropsRef';
+import { ShapesComponent } from './shapes/shapes.component';
+import { LogosComponent } from './logos/logos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShapesComponent,
+    LogosComponent
   ],
   imports: [
     BrowserModule
