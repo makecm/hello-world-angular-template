@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
+## Looking for a different language?
+- React
+  - [Create React App](https://github.com/Outfitio/make-hello-world-react-template)
+  - [Gatsby](https://github.com/Outfitio/make-hello-world-gatsby-template) 🚧
+  - [NextJS](https://github.com/Outfitio/make-hello-world-next-js-template) 🚧
+- [Vue](https://github.com/Outfitio/make-hello-world-vue-template)
+
+<img src="https://files.outfit.io/media_library_items/236739/Screen%2520Shot%25202020-11-03%2520at%252010.33.28%2520am.png" style="width: 60%; margin: 0 auto; display: block;" alt="make starter template" />
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
