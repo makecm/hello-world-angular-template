@@ -8,7 +8,7 @@ import { NgForOf } from '@angular/common';
 })
 
 export class ShapesComponent implements OnInit {
-
+  list = [];
   constructor() {  }
 
   ngOnInit(): void {
@@ -20,7 +20,7 @@ export class ShapesComponent implements OnInit {
       return Math.floor(Math.random() * 500 + 900);
     }
 
-    let list = [
+    this.list = [
       {
         r: null,
         cx: null,
@@ -58,16 +58,12 @@ export class ShapesComponent implements OnInit {
       },
     ]
 
-    list.map(i => {
+    this.list.forEach(i => {
       i.r = Math.floor(Math.random() * 900) + 100;
       i.cx = Math.floor(Math.random() * 900);
       i.cy = Math.floor(Math.random() * 900);
       i.strokeWidth = Math.floor(Math.random() * 200 + 75);
       i.strokeDashArray = getRandomLength(), getRandomGap();
     })
-
-    console.log(list)
-
-
   }
 }
