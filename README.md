@@ -23,9 +23,9 @@ When importing into Make be sure to import from the `/dist` folder.
 
 The following `data` inputs are available as well.
 
-`headline`: string
-`backgroundImage`: string (public URL)
-`showLogos`: boolean
+- `headline`: string
+- `backgroundImage`: string (public URL)
+- `showLogos`: boolean
 
 ## Code scaffolding
 
