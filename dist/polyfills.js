@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jimmy.chan/DEVELOPMENT/make-hello-ng-template/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /Users/james/Documents/outfit/makecm/starter-templates/make-hello-world-angular/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
@@ -79,6 +79,10 @@ __webpack_require__.r(__webpack_exports__);
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+window.process = {
+    env: { DEBUG: undefined }
+};
+window.global = window;
 
 
 /***/ }),

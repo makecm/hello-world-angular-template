@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jimmy.chan/DEVELOPMENT/make-hello-ng-template/src/styles.css */"OmL/");
+module.exports = __webpack_require__(/*! /Users/james/Documents/outfit/makecm/starter-templates/make-hello-world-angular/src/styles.css */"OmL/");
 
 
 /***/ }),

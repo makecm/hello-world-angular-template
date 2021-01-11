@@ -6,7 +6,15 @@
     viewBox="100 100 600 600"
     preserveAspectRatio="xMidYMid slice"
   >
-    <span *ngFor="let item of list">{{item.r}}</span>
+    <ng-container *ngFor="let item of list">
+      <circle
+        [attr.r]="item?.r"
+        [attr.cx]="item?.cx"
+        [attr.cy]="item?.cy"
+        [attr.stroke-width]="item?.strokeWidth"
+        [attr.stroke-dash-array]="item?.strokeDashArray"
+      ></circle>
+    </ng-container>
   </svg>
   <svg style="pointer-events: none">
     <defs>
