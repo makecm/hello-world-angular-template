@@ -11,12 +11,12 @@ import { MakeTemplatePropsRef } from 'src/lib/MakeTemplatePropsRef';
 export class AppComponent {
   headline = '';
   backgroundImage = '';
-  showLogo=true;
+  showLogos='';
 
   constructor(private makeTemplatePropsRef: MakeTemplatePropsRef) {
     this.headline = makeTemplatePropsRef.makeTemplateProps.headline;
     this.backgroundImage = makeTemplatePropsRef.makeTemplateProps.backgroundImage;
-    this.showLogo = makeTemplatePropsRef.makeTemplateProps.showLogo;
+    this.showLogos = makeTemplatePropsRef.makeTemplateProps.showLogos;
   }
   title = 'make-hello-ng-template';
 }

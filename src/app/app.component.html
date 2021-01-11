@@ -1,5 +1,7 @@
 <div class="App" style="background-image: url('{{ backgroundImage }}')">
-  <app-logos></app-logos>
+  <app-logos
+    [style.display]="showLogos ? 'block' : 'none'"
+  ></app-logos>
   <h1>{{ headline }}</h1>
   <app-shapes></app-shapes>
 </div>

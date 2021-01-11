@@ -17,6 +17,16 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build --base-href . --outputPath=dist` to build the project with correct resource pathing for the sake of deploying to make.
 
+## Importing into Make
+
+When importing into Make be sure to import from the `/dist` folder.
+
+The following `data` inputs are available as well.
+
+`headline`: string
+`backgroundImage`: string (public URL)
+`showLogos`: boolean
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

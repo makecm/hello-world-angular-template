@@ -5,7 +5,7 @@ function _templateProps() : any {
    return window['templateProps'] || {
       headline: 'Hello World',
       backgroundImage: '',
-      showLogo: true,
+      showLogos: true,
    };
 }
 
